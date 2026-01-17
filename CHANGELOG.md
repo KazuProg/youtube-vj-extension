@@ -1,0 +1,11 @@
+# Changelog
+
+## [1.0.0] - 2026-01-17
+
+### Added
+
+- Chrome extension for YouTube-VJ integration
+  - Popup UI to open the YouTube-VJ controller in a popup window
+  - YouTube page content script to detect and store video ID changes
+  - VJ app content scripts to receive video ID updates via postMessage
+- Documentation with an installation guide and screenshots
