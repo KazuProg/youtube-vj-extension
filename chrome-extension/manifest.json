@@ -21,6 +21,12 @@
       "world": "ISOLATED"
     },
     {
+      "all_frames": true,
+      "js": ["js/yt-embed-isolated.js"],
+      "matches": ["https://www.youtube.com/embed/*"],
+      "world": "ISOLATED"
+    },
+    {
       "js": ["js/vj-isolated.js"],
       "matches": ["https://youtube-vj.kazuprog.work/"],
       "world": "ISOLATED"
