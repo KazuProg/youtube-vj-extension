@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0] - 2026-06-10
+
+### Added
+
+- Hide YouTube player controls on projection embeds
+
 ## [1.0.0] - 2026-01-17
 
 ### Added
