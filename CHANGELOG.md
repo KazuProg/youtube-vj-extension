@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0] - 2026-07-05
+
+### Added
+
+- Hide caption window on projection embeds
+
 ## [1.1.0] - 2026-06-10
 
 ### Added
