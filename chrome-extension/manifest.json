@@ -27,12 +27,12 @@
       "world": "ISOLATED"
     },
     {
-      "js": ["js/vj-isolated.js"],
+      "js": ["js/constants.js", "js/vj-isolated.js"],
       "matches": ["https://youtube-vj.kazuprog.work/"],
       "world": "ISOLATED"
     },
     {
-      "js": ["js/vj-main.js"],
+      "js": ["js/constants.js", "js/vj-main.js"],
       "matches": ["https://youtube-vj.kazuprog.work/"],
       "world": "MAIN"
     }
