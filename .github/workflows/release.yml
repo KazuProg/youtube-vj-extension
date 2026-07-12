@@ -54,6 +54,11 @@ jobs:
           command: changelog
           args: "--at ${{ steps.release.outputs.version }}"
 
+      - name: Package Chrome extension
+        if: steps.bumped.outputs.released == 'true'
+        working-directory: chrome-extension
+        run: zip -r "../YouTube-VJ_Plus.zip" .
+
       - name: Create GitHub Release
         if: steps.bumped.outputs.released == 'true'
         uses: softprops/action-gh-release@v2
@@ -61,3 +66,4 @@ jobs:
           tag_name: ${{ steps.release.outputs.version }}
           name: ${{ steps.release.outputs.version }}
           body: ${{ steps.changelog.outputs.stdout }}
+          files: YouTube-VJ_Plus.zip
