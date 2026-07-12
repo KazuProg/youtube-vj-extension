@@ -3,10 +3,10 @@
     if (changes.videoId) {
       window.postMessage(
         {
-          type: "YTVJ_EXTENSION_NOTIFY_VIDEO_ID",
+          type: YTVJ_MESSAGE_TYPE_NOTIFY_VIDEO_ID,
           data: changes.videoId.newValue,
         },
-        "https://youtube-vj.kazuprog.work/"
+        YTVJ_ORIGIN
       );
     }
   });
